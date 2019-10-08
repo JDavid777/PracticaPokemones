@@ -26,9 +26,9 @@
             <form method="get">
                 <select name="tipo" onchange="this.form.submit()">
                     <option value="0"> --Seleccione Tipo--</option>
-                    <option value="1">Agua</option>
-                    <option value="2">Fuego</option>
-                    <option value="3">Electrico</option>                
+                    <option value="Agua">Agua</option>
+                    <option value="Fuego">Fuego</option>
+                    <option value="Electrico">Electrico</option>                
                 </select>
                 
             </form>            
