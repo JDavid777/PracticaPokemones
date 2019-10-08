@@ -24,7 +24,7 @@
             </p>
             
             <form method="get">
-                <select name="pokemones" onchange="this.form.submit()">
+                <select name="tipo" onchange="this.form.submit()">
                     <option value="0"> --Seleccione Tipo--</option>
                     <option value="1">Agua</option>
                     <option value="2">Fuego</option>
