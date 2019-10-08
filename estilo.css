@@ -7,9 +7,9 @@
     overflow:visible;
 }
 
-.poquemon
+.pokemon
 {
-    background-image: url('escenario.jpg');
+    background-image: url('imagenes/escenario.jpg');
 }
 
 .caja 
@@ -28,9 +28,18 @@
 
 .imagen
 {    
-    width:100%;    
+    width:50%;    
+}
+@font-face{
+    font-family: "Pokemon";
+    src: url("/fuentes/Pokemon\ Hollow.ttf");
+
 }
 
+h1
+{
+    font-family: Pokemon;
+}
 
 @media  screen and (max-width: 600px)
 {

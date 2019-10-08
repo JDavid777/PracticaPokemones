@@ -20,5 +20,4 @@ else
     echo "Error, número de pokemon no especificado"; 
 }
 
-var_dump($pokes);
 ?>
