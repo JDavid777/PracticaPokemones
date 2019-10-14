@@ -1,17 +1,16 @@
-@import url(fuentes/Pokemon\ Hollow.ttf);
-@import url(fuentes/Pokemon\ Solid.ttf);
-
-
 .global
 {
     overflow:visible;
+    background-image: url('imagenes/pokeball.png')
 }
-
 .pokemon
 {
-    background-image: url('imagenes/escenario.jpg');
+    background: url('imagenes/escenario.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
 }
-
 .caja 
 {
     background-color: white;
@@ -19,26 +18,48 @@
 .centrado
 {
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+    width: 55%;
+    border: 3px solid black;
+    padding: 5px;
     text-align: center;  
     overflow:auto;     
+    background-color: white;
 }
-
 .imagen
 {    
-    width:50%;    
+    padding-top: 5px;
+    width:100%;    
+}
+.carta{
+    width: 50%;
+    border: 3px solid black;
+    margin:auto;
+    vertical-align: middle;
+}
+.nombre
+{
+    background-color: white;
+    text-align: center;  
+    margin:auto;
+    vertical-align: middle;
 }
 @font-face{
-    font-family: "Pokemon";
-    src: url("/fuentes/Pokemon\ Hollow.ttf");
+    font-family: "Pokemon1";
+    src: url("fuentes/Pokemon Solid.ttf");
+}
+@font-face{
+    font-family: "Pokemon2";
+    src: url("fuentes/PokemonHollow.ttf");
+}
+.text1
+{
+    font-family: "Pokemon1";
+    color: black;
 
 }
-
-h1
-{
-    font-family: Pokemon;
+.text{
+    font-family: "Pokemon2";
+    color: crimson;
 }
 
 @media  screen and (max-width: 600px)
